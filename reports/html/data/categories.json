@@ -1,0 +1,45 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError",
+      "children" : [ {
+        "name" : "test_product_category_create[正常流-必填字段]",
+        "uid" : "cf8ad444e33fdd16",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564133107081,
+          "stop" : 1564133107190,
+          "duration" : 109
+        },
+        "flaky" : true,
+        "parameters" : [ "200.0", "'{\n  \"name\": \"车\"\n}'", "'/productCategory/create'" ]
+      } ],
+      "uid" : "a0017ad855102fea08b8682d27fec4ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "json.decoder.JSONDecodeError: Expecting value: line 13 column 11 (char 268)",
+      "children" : [ {
+        "name" : "test_product_category_create[sort字段异常测试-非数字]",
+        "uid" : "9e108918b6b6ef2c",
+        "parentUid" : "e75bf1a0bd375621dead4de514026846",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564133107284,
+          "stop" : 1564133107284,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "500.0", "'{\n  \"description\": \"a\",\n  \"icon\": \"http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg\",\n  \"keywords\": \"s\",\n  \"name\": \"车\",\n  \"navStatus\": 0,\n  \"parentId\": 0,\n  \"productAttributeIdList\": [\n    1\n  ],\n  \"productUnit\": \"件\",\n  \"showStatus\": 0,\n  \"sort\": 决定定时\n}'", "'/productCategory/create'" ]
+      } ],
+      "uid" : "e75bf1a0bd375621dead4de514026846"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

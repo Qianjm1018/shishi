@@ -1,0 +1,174 @@
+{
+  "uid" : "40481825e012a08b",
+  "name" : "test_product_category_create[添加商品分类_全字段正常流_1]",
+  "fullName" : "test_case.product_category.test_product_category_add#test_product_category_create[添加商品分类_全字段正常流_1]",
+  "historyId" : "73e38a6faad5531cfc325e0d1b785db8",
+  "time" : {
+    "start" : 1564133106808,
+    "stop" : 1564133106938,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1564133106636,
+      "stop" : 1564133106806,
+      "duration" : 170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "82eef7cc9721c1d5",
+      "name" : "请求",
+      "source" : "82eef7cc9721c1d5.txt",
+      "type" : "text/plain",
+      "size" : 274
+    }, {
+      "uid" : "b6a868b4a0208fca",
+      "name" : "响应",
+      "source" : "b6a868b4a0208fca.txt",
+      "type" : "text/plain",
+      "size" : 629
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "断言响应断言码，实际结果200，预期结果200",
+      "time" : {
+        "start" : 1564133106938,
+        "stop" : 1564133106938,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言code，实际结果：200 ,预期结果为：200.0",
+      "time" : {
+        "start" : 1564133106938,
+        "stop" : 1564133106938,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3e064ebb975ca733",
+      "name" : "请求",
+      "source" : "3e064ebb975ca733.txt",
+      "type" : "text/plain",
+      "size" : 717
+    }, {
+      "uid" : "b0acdb297f80740e",
+      "name" : "响应",
+      "source" : "b0acdb297f80740e.txt",
+      "type" : "text/plain",
+      "size" : 413
+    }, {
+      "uid" : "f7dd95d0ec35e9a8",
+      "name" : "log",
+      "source" : "f7dd95d0ec35e9a8.txt",
+      "type" : "text/plain",
+      "size" : 4130
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加商品分类"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.product_category"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_category_add"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190321QIW"
+  }, {
+    "name" : "thread",
+    "value" : "8064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.product_category.test_product_category_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "200.0"
+  }, {
+    "name" : "datas",
+    "value" : "'{\n  \"description\": \"a\",\n  \"icon\": \"http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg\",\n  \"keywords\": \"s\",\n  \"name\": \"车\",\n  \"navStatus\": 0,\n  \"parentId\": 0,\n  \"productAttributeIdList\": [\n    1\n  ],\n  \"productUnit\": \"件\",\n  \"showStatus\": 0,\n  \"sort\": 0\n}'"
+  }, {
+    "name" : "uri",
+    "value" : "'/productCategory/create'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7b4402f079afba6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564132931639,
+        "stop" : 1564132931767,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "4f9882511e52e187",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564132599356,
+        "stop" : 1564132599508,
+        "duration" : 152
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40481825e012a08b.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "200.0", "'{\n  \"description\": \"a\",\n  \"icon\": \"http://img5.imgtn.bdimg.com/it/u=3300305952,1328708913&fm=26&gp=0.jpg\",\n  \"keywords\": \"s\",\n  \"name\": \"车\",\n  \"navStatus\": 0,\n  \"parentId\": 0,\n  \"productAttributeIdList\": [\n    1\n  ],\n  \"productUnit\": \"件\",\n  \"showStatus\": 0,\n  \"sort\": 0\n}'", "'/productCategory/create'" ]
+}

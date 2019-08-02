@@ -1,0 +1,143 @@
+{
+  "uid" : "29272abb036b6bca",
+  "name" : "test_admin_login",
+  "fullName" : "test_case.test_business_process.test_user_admin_process#test_admin_login",
+  "historyId" : "ab671f1ee22337b7f59a698adcc3680e",
+  "time" : {
+    "start" : 1564123428416,
+    "stop" : 1564123428549,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "634ff76b01e0568b",
+      "name" : "请求",
+      "source" : "634ff76b01e0568b.txt",
+      "type" : "text/plain",
+      "size" : 279
+    }, {
+      "uid" : "dff44e395aa3c95",
+      "name" : "响应",
+      "source" : "dff44e395aa3c95.txt",
+      "type" : "text/plain",
+      "size" : 636
+    }, {
+      "uid" : "1500219b8479860b",
+      "name" : "log",
+      "source" : "1500219b8479860b.txt",
+      "type" : "text/plain",
+      "size" : 1924
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "后台用户管理流程"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_business_process"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_admin_process"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190321QIW"
+  }, {
+    "name" : "thread",
+    "value" : "3000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_business_process.test_user_admin_process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "530b71751e7b8dd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564113218031,
+        "stop" : 1564113218171,
+        "duration" : 140
+      }
+    }, {
+      "uid" : "da1402a2bb7211c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564113097755,
+        "stop" : 1564113097902,
+        "duration" : 147
+      }
+    }, {
+      "uid" : "cd7af925afb43e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564112954490,
+        "stop" : 1564112954625,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "f63769c1e96addb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564112932000,
+        "stop" : 1564112932139,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "b2220d14f734c994",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564112876960,
+        "stop" : 1564112877098,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "abddd4c333057608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564111534151,
+        "stop" : 1564111534287,
+        "duration" : 136
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29272abb036b6bca.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

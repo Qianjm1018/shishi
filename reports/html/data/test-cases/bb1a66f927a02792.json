@@ -1,0 +1,173 @@
+{
+  "uid" : "bb1a66f927a02792",
+  "name" : "test_admin_role",
+  "fullName" : "test_case.test_business_process.test_user_admin_process#test_admin_role",
+  "historyId" : "6bf4707a20c1941768ea77f21196544d",
+  "time" : {
+    "start" : 1564123428303,
+    "stop" : 1564123428412,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "断言响应状态码，实际结果是：200，预期结果为：200",
+      "time" : {
+        "start" : 1564123428412,
+        "stop" : 1564123428412,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言用户角色信息，实际结果是：商品分类管理员，预期结果为：商品",
+      "time" : {
+        "start" : 1564123428412,
+        "stop" : 1564123428412,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "419476002c70866c",
+      "name" : "请求",
+      "source" : "419476002c70866c.txt",
+      "type" : "text/plain",
+      "size" : 185
+    }, {
+      "uid" : "507506e43de359de",
+      "name" : "响应",
+      "source" : "507506e43de359de.txt",
+      "type" : "text/plain",
+      "size" : 553
+    }, {
+      "uid" : "61048f485ad89ec3",
+      "name" : "log",
+      "source" : "61048f485ad89ec3.txt",
+      "type" : "text/plain",
+      "size" : 1668
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查询用户角色信息"
+  }, {
+    "name" : "feature",
+    "value" : "后台用户管理流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_business_process"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_admin_process"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190321QIW"
+  }, {
+    "name" : "thread",
+    "value" : "3000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_business_process.test_user_admin_process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4bc21a23c40b22a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564113217921,
+        "stop" : 1564113218024,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "cd90271abcbe6bf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564113097653,
+        "stop" : 1564113097750,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "622f8e332dcc2f98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564112954386,
+        "stop" : 1564112954483,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "a5032470b55f765a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564112931893,
+        "stop" : 1564112931994,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "e6cd063c289ba51d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564112876851,
+        "stop" : 1564112876953,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "e575e61b9eb8aec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564111534044,
+        "stop" : 1564111534146,
+        "duration" : 102
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb1a66f927a02792.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

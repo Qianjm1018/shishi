@@ -1,0 +1,12 @@
+---------------请求-----------------
+http://qa.yansl.com:8080/productCategory/create
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQxMzI5MzQ2OTYsImV4cCI6MTU2NDczNzczNH0.5ZX35vyScVQh6elWXmtpDbS_DeszS_viXZvi_BAtTY3KLgiUk2J6bJx5boWelVOIL64Vg9x5vJfbZpJynK775w
+charset: UTF-8
+Content-Length: 18
+Content-Type: application/json
+
+b'{"name": "\\u8f66"}'

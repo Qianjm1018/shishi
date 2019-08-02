@@ -1,0 +1,107 @@
+{
+  "uid" : "50b98c566eaea3a",
+  "name" : "test_user_regitor",
+  "fullName" : "test_case.test_business_process.test_user_admin_process#test_user_regitor",
+  "historyId" : "ebd9f3a2c0560b187cc5ebeaae9c1f67",
+  "time" : {
+    "start" : 1564112876607,
+    "stop" : 1564112876728,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "断言用户名，实际结果是：dignsMGflN，预期结果为：200",
+      "time" : {
+        "start" : 1564112876727,
+        "stop" : 1564112876728,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e229874568527e86",
+      "name" : "请求",
+      "source" : "e229874568527e86.txt",
+      "type" : "text/plain",
+      "size" : 282
+    }, {
+      "uid" : "6449bb464198a591",
+      "name" : "响应",
+      "source" : "6449bb464198a591.txt",
+      "type" : "text/plain",
+      "size" : 600
+    }, {
+      "uid" : "762ee0f48fb560c9",
+      "name" : "log",
+      "source" : "762ee0f48fb560c9.txt",
+      "type" : "text/plain",
+      "size" : 1891
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "注册-新用户"
+  }, {
+    "name" : "feature",
+    "value" : "后台用户管理流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_business_process"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_admin_process"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190321QIW"
+  }, {
+    "name" : "thread",
+    "value" : "4908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_business_process.test_user_admin_process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "50b98c566eaea3a.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "88a3b252c5e7fce8",
+  "name" : "test_admin_info",
+  "fullName" : "test_case.test_business_process.test_user_admin_process#test_admin_info",
+  "historyId" : "c2b1692cd91c2e1bbaa5243a36c8275b",
+  "time" : {
+    "start" : 1564111534291,
+    "stop" : 1564111534390,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29073401bb56bcc2",
+      "name" : "请求",
+      "source" : "29073401bb56bcc2.txt",
+      "type" : "text/plain",
+      "size" : 409
+    }, {
+      "uid" : "860360472f93548b",
+      "name" : "响应",
+      "source" : "860360472f93548b.txt",
+      "type" : "text/plain",
+      "size" : 466
+    }, {
+      "uid" : "d2ad29183f598c82",
+      "name" : "log",
+      "source" : "d2ad29183f598c82.txt",
+      "type" : "text/plain",
+      "size" : 1883
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取当前登录用户信息-根据token获取用户登录信息"
+  }, {
+    "name" : "feature",
+    "value" : "后台用户管理流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_business_process"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_admin_process"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190321QIW"
+  }, {
+    "name" : "thread",
+    "value" : "4368-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_business_process.test_user_admin_process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "88a3b252c5e7fce8.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

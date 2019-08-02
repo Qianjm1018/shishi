@@ -1,0 +1,207 @@
+{
+  "uid" : "60637015c73597ca",
+  "name" : "test_open_add",
+  "fullName" : "test_case.ui.mall.test_mall_add_product#test_open_add",
+  "historyId" : "17976c64eb9b2333b2baa67f53b0044d",
+  "time" : {
+    "start" : 1564627759858,
+    "stop" : 1564627764385,
+    "duration" : 4527
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1564627708172,
+      "stop" : 1564627740358,
+      "duration" : 32186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "断言添加商品",
+      "time" : {
+        "start" : 1564627764318,
+        "stop" : 1564627764384,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f77ef041d62ef053",
+        "name" : "实际结果",
+        "source" : "f77ef041d62ef053.txt",
+        "type" : "text/plain",
+        "size" : 137263
+      }, {
+        "uid" : "b0a973f22845902b",
+        "name" : "预期结果",
+        "source" : "b0a973f22845902b.txt",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4ad422c1cef0acd3",
+      "name" : "点击商品之前",
+      "source" : "4ad422c1cef0acd3.png",
+      "type" : "image/png",
+      "size" : 57695
+    }, {
+      "uid" : "a09c0c349c743093",
+      "name" : "点击商品之后",
+      "source" : "a09c0c349c743093.png",
+      "type" : "image/png",
+      "size" : 63701
+    }, {
+      "uid" : "d073869c8e8d89db",
+      "name" : "点击商品分类之前",
+      "source" : "d073869c8e8d89db.png",
+      "type" : "image/png",
+      "size" : 64178
+    }, {
+      "uid" : "db3c2f3eea59fb",
+      "name" : "点击商品分类之后",
+      "source" : "db3c2f3eea59fb.png",
+      "type" : "image/png",
+      "size" : 65156
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base::0",
+    "time" : {
+      "start" : 1564627784590,
+      "stop" : 1564627787715,
+      "duration" : 3125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "打开添加商品页面"
+  }, {
+    "name" : "feature",
+    "value" : "添加商品流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.mall"
+  }, {
+    "name" : "suite",
+    "value" : "test_mall_add_product"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190321QIW"
+  }, {
+    "name" : "thread",
+    "value" : "2480-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.mall.test_mall_add_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1bb6ff0801676a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564625441786,
+        "stop" : 1564625448280,
+        "duration" : 6494
+      }
+    }, {
+      "uid" : "9b3ca4e3dea507ce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.142)",
+      "time" : {
+        "start" : 1564625396703,
+        "stop" : 1564625396705,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "15b464599a577ed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564625143898,
+        "stop" : 1564625148623,
+        "duration" : 4725
+      }
+    }, {
+      "uid" : "a4ea9be2c19e4093",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564625067879,
+        "stop" : 1564625072002,
+        "duration" : 4123
+      }
+    }, {
+      "uid" : "18a96506fb5364a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564624943994,
+        "stop" : 1564624948116,
+        "duration" : 4122
+      }
+    }, {
+      "uid" : "b0fcf7d7056f8393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564624097681,
+        "stop" : 1564624101782,
+        "duration" : 4101
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60637015c73597ca.json",
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

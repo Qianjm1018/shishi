@@ -1,0 +1,149 @@
+{
+  "uid" : "e0fc3f70ec265a19",
+  "name" : "test_product_category_create[正常流-必填字段]",
+  "fullName" : "test_case.product_category.test_product_category_add#test_product_category_create[正常流-必填字段]",
+  "historyId" : "1913691141fc13fb5c31d4edda429031",
+  "time" : {
+    "start" : 1564132931890,
+    "stop" : 1564132931997,
+    "duration" : 107
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "AssertionError",
+    "trace" : "token = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQxMzI5MzQ2OTYsImV4cCI6MTU2NDczNzczNH0.5ZX35vyScVQh6elWXmtpDbS_DeszS_viXZvi_BAtTY3KLgiUk2J6bJx5boWelVOIL64Vg9x5vJfbZpJynK775w'\nuri = '/productCategory/create', datas = '{\\n  \"name\": \"车\"\\n}', code = 200.0\n\n    @pytest.mark.parametrize('uri,datas,code',data[1],ids=data[0])\n    @allure.feature('添加商品分类')\n    def test_product_category_create(token,uri,datas,code,):\n        # config/conf.py里面配置GY_API_URL,模板快捷键demo_conf_api\n        url = conf.GY_API_URL + uri\n        req = json.loads(datas)\n        headers = {\n            'Authorization': token,\n            'charset': 'UTF-8'\n        }\n        resp = request_tool.post_request(url, json=req, headers=headers)\n        body = resp.json()\n        with allure.step('断言响应断言码，实际结果{}，预期结果200'.format(resp.status_code)):\n            pass\n        # 判断响应码\n>       assert_tool.assert_equal(resp.status_code, 200)\n\ntest_case\\product_category\\test_product_category_add.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nbody = 500, expected_msg = 200\n\n    def assert_equal(body, expected_msg):\n        \"\"\"\n        验证response body中是否等于预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n>           assert body == expected_msg\nE           AssertionError\n\nvenv\\lib\\site-packages\\tools\\assert_tool.py:35: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1564132931487,
+      "stop" : 1564132931637,
+      "duration" : 150
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "417f1db022ed0198",
+      "name" : "请求",
+      "source" : "417f1db022ed0198.txt",
+      "type" : "text/plain",
+      "size" : 274
+    }, {
+      "uid" : "412539db942139bf",
+      "name" : "响应",
+      "source" : "412539db942139bf.txt",
+      "type" : "text/plain",
+      "size" : 629
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "AssertionError",
+      "trace" : "token = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQxMzI5MzQ2OTYsImV4cCI6MTU2NDczNzczNH0.5ZX35vyScVQh6elWXmtpDbS_DeszS_viXZvi_BAtTY3KLgiUk2J6bJx5boWelVOIL64Vg9x5vJfbZpJynK775w'\nuri = '/productCategory/create', datas = '{\\n  \"name\": \"车\"\\n}', code = 200.0\n\n    @pytest.mark.parametrize('uri,datas,code',data[1],ids=data[0])\n    @allure.feature('添加商品分类')\n    def test_product_category_create(token,uri,datas,code,):\n        # config/conf.py里面配置GY_API_URL,模板快捷键demo_conf_api\n        url = conf.GY_API_URL + uri\n        req = json.loads(datas)\n        headers = {\n            'Authorization': token,\n            'charset': 'UTF-8'\n        }\n        resp = request_tool.post_request(url, json=req, headers=headers)\n        body = resp.json()\n        with allure.step('断言响应断言码，实际结果{}，预期结果200'.format(resp.status_code)):\n            pass\n        # 判断响应码\n>       assert_tool.assert_equal(resp.status_code, 200)\n\ntest_case\\product_category\\test_product_category_add.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nbody = 500, expected_msg = 200\n\n    def assert_equal(body, expected_msg):\n        \"\"\"\n        验证response body中是否等于预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n>           assert body == expected_msg\nE           AssertionError\n\nvenv\\lib\\site-packages\\tools\\assert_tool.py:35: AssertionError",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "断言响应断言码，实际结果500，预期结果200",
+      "time" : {
+        "start" : 1564132931997,
+        "stop" : 1564132931997,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c551807f521aab65",
+      "name" : "请求",
+      "source" : "c551807f521aab65.txt",
+      "type" : "text/plain",
+      "size" : 482
+    }, {
+      "uid" : "377a3fc82d8ef915",
+      "name" : "响应",
+      "source" : "377a3fc82d8ef915.txt",
+      "type" : "text/plain",
+      "size" : 568
+    }, {
+      "uid" : "f64ad2887375de1b",
+      "name" : "log",
+      "source" : "f64ad2887375de1b.txt",
+      "type" : "text/plain",
+      "size" : 2279
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加商品分类"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.product_category"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_category_add"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190321QIW"
+  }, {
+    "name" : "thread",
+    "value" : "4568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.product_category.test_product_category_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "200.0"
+  }, {
+    "name" : "datas",
+    "value" : "'{\n  \"name\": \"车\"\n}'"
+  }, {
+    "name" : "uri",
+    "value" : "'/productCategory/create'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "e0fc3f70ec265a19.json",
+  "statusDetailsSafe" : {
+    "message" : "AssertionError",
+    "trace" : "token = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQxMzI5MzQ2OTYsImV4cCI6MTU2NDczNzczNH0.5ZX35vyScVQh6elWXmtpDbS_DeszS_viXZvi_BAtTY3KLgiUk2J6bJx5boWelVOIL64Vg9x5vJfbZpJynK775w'\nuri = '/productCategory/create', datas = '{\\n  \"name\": \"车\"\\n}', code = 200.0\n\n    @pytest.mark.parametrize('uri,datas,code',data[1],ids=data[0])\n    @allure.feature('添加商品分类')\n    def test_product_category_create(token,uri,datas,code,):\n        # config/conf.py里面配置GY_API_URL,模板快捷键demo_conf_api\n        url = conf.GY_API_URL + uri\n        req = json.loads(datas)\n        headers = {\n            'Authorization': token,\n            'charset': 'UTF-8'\n        }\n        resp = request_tool.post_request(url, json=req, headers=headers)\n        body = resp.json()\n        with allure.step('断言响应断言码，实际结果{}，预期结果200'.format(resp.status_code)):\n            pass\n        # 判断响应码\n>       assert_tool.assert_equal(resp.status_code, 200)\n\ntest_case\\product_category\\test_product_category_add.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nbody = 500, expected_msg = 200\n\n    def assert_equal(body, expected_msg):\n        \"\"\"\n        验证response body中是否等于预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n>           assert body == expected_msg\nE           AssertionError\n\nvenv\\lib\\site-packages\\tools\\assert_tool.py:35: AssertionError",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ "200.0", "'{\n  \"name\": \"车\"\n}'", "'/productCategory/create'" ]
+}

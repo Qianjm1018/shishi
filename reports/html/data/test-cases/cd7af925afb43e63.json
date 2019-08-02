@@ -1,0 +1,92 @@
+{
+  "uid" : "cd7af925afb43e63",
+  "name" : "test_admin_login",
+  "fullName" : "test_case.test_business_process.test_user_admin_process#test_admin_login",
+  "historyId" : "ab671f1ee22337b7f59a698adcc3680e",
+  "time" : {
+    "start" : 1564112954490,
+    "stop" : 1564112954625,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7576e4f6fdae96af",
+      "name" : "请求",
+      "source" : "7576e4f6fdae96af.txt",
+      "type" : "text/plain",
+      "size" : 279
+    }, {
+      "uid" : "f93ef42086f29149",
+      "name" : "响应",
+      "source" : "f93ef42086f29149.txt",
+      "type" : "text/plain",
+      "size" : 636
+    }, {
+      "uid" : "c5c23957883e002f",
+      "name" : "log",
+      "source" : "c5c23957883e002f.txt",
+      "type" : "text/plain",
+      "size" : 1924
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "后台用户管理流程"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_business_process"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_admin_process"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190321QIW"
+  }, {
+    "name" : "thread",
+    "value" : "5312-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_business_process.test_user_admin_process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "cd7af925afb43e63.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

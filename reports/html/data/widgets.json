@@ -1,0 +1,135 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 12
+    },
+    "time" : {
+      "start" : 1564123428081,
+      "stop" : 1564627784589,
+      "duration" : 504356508,
+      "minDuration" : 0,
+      "maxDuration" : 20169,
+      "sumDuration" : 45033
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 3,
+    "items" : [ {
+      "uid" : "f38d78005efe7a0c98ef4fe3853b0969",
+      "name" : "test_case.product_category",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "f16c4994127f2459acdfdcc0ec43b93b",
+      "name" : "test_case.test_business_process",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      }
+    }, {
+      "uid" : "6fcce72bb644eaa4c6a8a4cb28dade3a",
+      "name" : "test_case.ui.mall",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 12
+    }
+  } ],
+  "behaviors" : {
+    "total" : 3,
+    "items" : [ {
+      "uid" : "12242f058c46543343b7b0dd8963661b",
+      "name" : "添加商品分类",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "70ef9c68d60967fd5949ef5ef163480b",
+      "name" : "后台用户管理流程",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      }
+    }, {
+      "uid" : "80ce0cacdcd3f50855aa26eb08e82d41",
+      "name" : "添加商品流程",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 2,
+    "items" : [ {
+      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
+      "name" : "Product defects",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "bdbf199525818fae7a8651db9eafe741",
+      "name" : "Test defects",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "launches" : [ ]
+}

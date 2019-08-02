@@ -1,0 +1,29 @@
+INFO     tools.log_tool:log_tool.py:33 ----请求用时: 104.421 秒数
+INFO     tools.log_tool:log_tool.py:33 ---------------请求-----------------
+                                       http://qa.yansl.com:8080/productCategory/create
+                                       User-Agent: python-requests/2.22.0
+                                       Accept-Encoding: gzip, deflate
+                                       Accept: */*
+                                       Connection: keep-alive
+                                       Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NjQxMzMxMDk4NzEsImV4cCI6MTU2NDczNzkwOX0.dL2JIjniY457nRQ4jQwO3vDdxCBC4AWyqtY6f1VufQFlo6lih6NyJ9wFh_3NVbE8MN2ORG1kKvNdt_VXpa242g
+                                       charset: UTF-8
+                                       Content-Length: 18
+                                       Content-Type: application/json
+                                       
+                                       b'{"name": "\\u8f66"}'
+INFO     tools.log_tool:log_tool.py:33 ---------------响应----------------
+                                       500
+                                       X-Application-Context: application:prod
+                                       X-Content-Type-Options: nosniff
+                                       X-XSS-Protection: 1; mode=block
+                                       Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+                                       Pragma: no-cache
+                                       Expires: 0
+                                       X-Frame-Options: DENY
+                                       Content-Type: application/json;charset=UTF-8
+                                       Transfer-Encoding: chunked
+                                       Date: Fri, 26 Jul 2019 09:25:09 GMT
+                                       Connection: close
+                                       
+                                       {"timestamp":1564133110287,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/productCategory/create"}
+ERROR    tools.log_tool:log_tool.py:45 Response body != expected_msg, expected_msg is 200, body is 500

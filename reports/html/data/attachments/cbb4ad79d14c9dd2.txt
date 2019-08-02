@@ -1,0 +1,10 @@
+---------------请求-----------------
+http://qa.yansl.com:8080/admin/info
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaWduc1Rjd3NqIiwiY3JlYXRlZCI6MTU2NDExMjkzNDY3MCwiZXhwIjoxNTY0NzE3NzM0fQ.9J3p2Oj1-77ZrA819G8tRQYTXYV8cn5WYzY8i3_ws_CSx-gZwW69Lm6A7KTpO0l-3m2j7MFmZh4EjcK5EBhV-Q
+charset: UTF-8
+
+None
